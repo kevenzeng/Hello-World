@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="4">
+		<TextView 
+			android:id="@+id/wacount_text"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize ="8pt" android:textColor = "#FF0000"></TextView>
+		<ListView
+			android:id="@+id/walist"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></ListView>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1" android:gravity="bottom">
+		
+		
+		<Button android:id="@+id/waset_clearall_btn" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="清空题库"
+			android:textSize="8pt" android:textColor="#FF0000"
+			android:textStyle="bold"></Button>
+		<Button android:id="@+id/waset_return_btn" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="返回"
+			android:textSize="8pt"></Button>
+			
+	</LinearLayout>
+</LinearLayout>

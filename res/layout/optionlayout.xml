@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="50px" android:paddingTop="30px"
+		android:paddingRight="50px" android:scrollbars="vertical">
+		<CheckBox
+			android:id="@+id/chk_autocheck"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="自动确认"></CheckBox>
+			
+		<CheckBox
+			android:id="@+id/chk_auto2next"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="答对后自动跳转下一题"></CheckBox>
+			
+		<CheckBox
+			android:id="@+id/chk_auto2addWAset"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="错题自动加入我的错题库"></CheckBox>	
+			
+		<CheckBox
+			android:id="@+id/chk_sound"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="开启声音"></CheckBox>	
+
+		<CheckBox
+			android:id="@+id/chk_checkbyrdm"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="开启 【确认】随机选答案">
+		</CheckBox>				
+				
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="bottom">
+		<Button android:id="@+id/btn_savesetting" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="保存"
+			android:textSize="8pt"></Button>
+		<Button android:id="@+id/btn_return" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="返回"
+			android:textSize="8pt"></Button>
+	</LinearLayout>
+</LinearLayout>

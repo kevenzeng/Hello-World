@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="50px" android:paddingTop="30px"
+		android:paddingRight="50px" android:scrollbars="vertical">
+
+		<Button android:id="@+id/btn_order" android:text="顺序练习"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:textSize="10pt"></Button>
+
+		<Button android:id="@+id/btn_rdm" android:text="随机练习"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:textSize="10pt"
+			android:layout_marginTop="20px"></Button>
+
+		<Button android:id="@+id/btn_test" android:text="模拟考试"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:textSize="10pt"
+			android:layout_marginTop="20px"></Button>
+
+		<Button android:id="@+id/btn_myWAset" android:text="我的错题库"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:textSize="10pt"
+			android:layout_marginTop="20px"></Button>
+
+		<Button android:id="@+id/btn_option" android:text="设置"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:textSize="10pt"
+			android:layout_marginTop="20px"></Button>
+
+	</LinearLayout>
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="bottom">
+		<Button android:id="@+id/btn_about" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="关于"
+			android:textSize="8pt"></Button>
+		<Button android:id="@+id/btn_exit" android:layout_width="160px"
+			android:layout_height="wrap_content" android:text="退出"
+			android:textSize="8pt"></Button>
+	</LinearLayout>
+</LinearLayout>
